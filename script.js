@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+<<<<<<< HEAD
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
 
@@ -20,4 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
       form.reset();
     });
   }
+=======
+  const links = document.querySelectorAll(".nav-links a");
+  links.forEach(link => {
+    link.addEventListener("click", (e) => {
+      console.log(`Navigating to ${link.getAttribute("href")}`);
+    });
+  });
+>>>>>>> 7f95c7df1c54013d14ee88fa71aa09a86532f063
 });
