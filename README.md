@@ -1,12 +1,4 @@
 ﻿# Git Workflow Midterm Lab
 # GitWorkflowMidtermLab
 
-A demo project used to practice a professional Git branching and Pull Request workflow.
-
-## Setup
-
-1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/<your-username>/GitWorkflowMidtermLab.git
-   \`\`\`
-2. Open \`index.html\` in your browser to view the site.
+ Git branching and Pull Request workflow.
